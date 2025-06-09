@@ -1,0 +1,25 @@
+{
+  "name": "send-email-utility-function",
+  "version": "1.0.0",
+  "main": "sendEmail.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashish397868/send-email-utility-function.git"
+  },
+  "keywords": [
+    "email",
+    "nodemailer",
+    "utility",
+    "nodejs"
+  ],
+  "author": "Ashish Kumar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ashish397868/send-email-utility-function/issues"
+  },
+  "homepage": "https://github.com/ashish397868/send-email-utility-function#readme",
+  "description": "A simple utility for sending emails using Node.js and Nodemailer."
+}
