@@ -1,4 +1,6 @@
 const nodemailer = require('nodemailer');
+require('dotenv').config(); // Load environment variables from .env file
+// Ensure you have a .env file with EMAIL_USER and EMAIL_PASSWORD set
 
 // Configure transporter (using Gmail SMTP example here)
 const transporter = nodemailer.createTransport({

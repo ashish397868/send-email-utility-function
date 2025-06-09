@@ -1,6 +1,6 @@
 {
   "name": "send-email-utility-function",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "sendEmail.js",
   "scripts": {
     "test": "echo \"No test specified\" && exit 0"
@@ -22,4 +22,9 @@
   },
   "homepage": "https://github.com/ashish397868/send-email-utility-function#readme",
   "description": "A simple utility for sending emails using Node.js and Nodemailer."
+  ,
+  "dependencies": {
+    "nodemailer": "^6.9.0",
+    "dotenv": "^10.0.0"
+  }
 }
